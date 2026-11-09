@@ -1,5 +1,5 @@
 ---
-title: "2. Your First Session"
+title: "Your First Session"
 weight: 2
 ---
 

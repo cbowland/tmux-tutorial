@@ -1,0 +1,10 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store
+
+# Editor / AI tool local files
+.vscode/
+.codex/
+.claude/settings.local.json
+CLAUDE.local.md

@@ -1,5 +1,5 @@
 ---
-title: "5. Sessions"
+title: "Sessions"
 weight: 5
 ---
 

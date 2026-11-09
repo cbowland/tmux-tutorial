@@ -1,0 +1,27 @@
+# Tutorial site config. Lines marked CHANGE ME are the only ones you must edit.
+# Everything else (layout, menus, search, numbering) comes from tutorial-template.
+baseURL: http://localhost:1313/   # GitHub Pages workflow overrides this at build time
+title: "tmux: From Zero to Muscle Memory"
+locale: en-us
+
+module:
+  imports:
+    - path: github.com/cbowland/tutorial-template
+
+# Required by the theme (Hugo does not inherit markup settings from modules):
+markup:
+  goldmark:
+    renderer:
+      unsafe: true        # Hextra shortcodes (callouts, tabs, cards) emit HTML
+  highlight:
+    noClasses: false      # theme-aware code colours (light/dark)
+
+params:
+  tutorial:
+    footer: "© 2026 Chris Bowland · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    version: "v0.1.0 · tested with tmux 3.8"
+    # numbering: false            # uncomment to turn off 1 / 1.1 numbering
+  # navbar:
+  #   displayLogo: true
+  #   logo:
+  #     path: images/logo.svg     # put the file in static/images/

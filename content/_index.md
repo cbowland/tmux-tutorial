@@ -2,6 +2,8 @@
 title: "tmux: From Zero to Muscle Memory"
 linkTitle: tmux
 weight: 1
+cascade:
+  type: docs
 ---
 
 tmux lets one terminal window hold many shells, organized into **sessions**, **windows**, and **panes**. Those shells keep running when you close the terminal, lose your SSH connection, or walk away for the weekend.
@@ -29,7 +31,7 @@ By the end you should be able to manage several projects at once, each in its ow
 {{< cards >}}
   {{< card link="01-install-and-config" title="1. Install & Config" icon="cog" subtitle="Install tmux, load the config, check it works." >}}
   {{< card link="02-first-session" title="2. Your First Session" icon="play" subtitle="Start, detach, reattach. The prefix habit." >}}
-  {{< card link="03-windows" title="3. Windows" icon="view-columns" subtitle="Tabs inside a session." >}}
+  {{< card link="03-windows" title="3. Windows" icon="view-boards" subtitle="Tabs inside a session." >}}
   {{< card link="04-panes" title="4. Panes" icon="view-grid" subtitle="Split, move, zoom, resize." >}}
   {{< card link="05-sessions" title="5. Sessions" icon="collection" subtitle="One session per project. Switching between them." >}}
   {{< card link="06-copy-mode" title="6. Copy Mode" icon="clipboard-copy" subtitle="Scrollback, search, copy and paste." >}}

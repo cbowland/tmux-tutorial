@@ -1,5 +1,5 @@
 ---
-title: "6. Copy Mode"
+title: "Copy Mode"
 weight: 6
 ---
 

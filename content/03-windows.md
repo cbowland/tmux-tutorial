@@ -1,5 +1,5 @@
 ---
-title: "3. Windows"
+title: "Windows"
 weight: 3
 ---
 

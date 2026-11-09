@@ -1,5 +1,5 @@
 ---
-title: "1. Install & Config"
+title: "Install & Config"
 weight: 1
 ---
 

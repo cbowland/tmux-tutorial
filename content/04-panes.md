@@ -1,5 +1,5 @@
 ---
-title: "4. Panes"
+title: "Panes"
 weight: 4
 ---
 

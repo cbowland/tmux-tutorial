@@ -1,5 +1,5 @@
 ---
-title: "7. Workflows"
+title: "Workflows"
 weight: 7
 ---
 

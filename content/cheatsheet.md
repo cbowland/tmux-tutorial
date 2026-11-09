@@ -1,6 +1,7 @@
 ---
 title: "Cheat Sheet"
 weight: 9
+numbered: false
 ---
 
 `prefix` = press and release **`Ctrl+a`**, then the key. Keys marked ★ come from your config; everything else is a tmux default.

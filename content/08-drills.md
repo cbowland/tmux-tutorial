@@ -1,5 +1,5 @@
 ---
-title: "8. Drills"
+title: "Drills"
 weight: 8
 ---
 
