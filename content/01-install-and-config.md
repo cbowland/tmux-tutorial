@@ -153,6 +153,8 @@ From a plain shell: start `tmux`, make one `|` split and one `-` split, press `p
 
 ### Feel the double-tap
 
-In any tmux pane, type `echo hello`, then press `Ctrl+a Ctrl+a`. The cursor should jump to the start of the line. That's `send-prefix` passing `Ctrl+a` through to the shell.
+At a shell prompt in any tmux pane, run `cat -v`, then press `Ctrl+a Ctrl+a`. You should see `^A` appear: the first `Ctrl+a` was the prefix, and the second one was passed through to the program by `send-prefix`. Press `Ctrl+c` to exit `cat`.
+
+(With emacs-style shell keys, the default in bash and zsh, you can also type `echo hello` at the prompt and press `Ctrl+a Ctrl+a`; the cursor jumps to the start of the line. With vi-style keys (`set -o vi` or `bindkey -v`), the shell just inserts a literal `^A` instead. That's expected, and it shows the key still got through.)
 
 {{% /steps %}}
